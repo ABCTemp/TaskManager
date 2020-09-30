@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840695D2251C8D5500539F3F /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695D1251C8D5500539F3F /* BaseVC.m */; };
+		840695D5251C8DC100539F3F /* TMListTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695D4251C8DC100539F3F /* TMListTaskViewController.m */; };
+		840695DB251C8DEF00539F3F /* BaseVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695DA251C8DEF00539F3F /* BaseVM.m */; };
+		840695DE251C8E0600539F3F /* TMListTaskVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695DD251C8E0600539F3F /* TMListTaskVM.m */; };
+		840695E1251C8E1D00539F3F /* TMTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695E0251C8E1D00539F3F /* TMTask.m */; };
+		840695E4251C930400539F3F /* TMProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695E3251C930400539F3F /* TMProject.m */; };
+		840695E7251C93E800539F3F /* TMHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695E6251C93E800539F3F /* TMHomeVC.m */; };
+		840695EA251C93FB00539F3F /* TMHomeVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695E9251C93FB00539F3F /* TMHomeVM.m */; };
+		840695EC251C985500539F3F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840695EB251C985500539F3F /* GoogleService-Info.plist */; };
+		840695EF251CA35B00539F3F /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695EE251CA35B00539F3F /* BaseModel.m */; };
+		840695F2251CAAEB00539F3F /* TMTaskDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695F1251CAAEB00539F3F /* TMTaskDetailVC.m */; };
+		840695F5251CAB0200539F3F /* TMTaskDetailVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 840695F4251CAB0200539F3F /* TMTaskDetailVM.m */; };
+		8406961D251D941F00539F3F /* TMTaskCollectionNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8406961C251D941F00539F3F /* TMTaskCollectionNode.m */; };
+		840696222521846900539F3F /* TMDbWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 840696212521846900539F3F /* TMDbWrapper.m */; };
+		8493984325243BF1005766F1 /* TMMember.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493984225243BF1005766F1 /* TMMember.m */; };
+		8493984625243CD1005766F1 /* TMFireStoreWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493984525243CD1005766F1 /* TMFireStoreWrapper.m */; };
 		88F9691925184AA7008F39AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9691825184AA7008F39AD /* AppDelegate.m */; };
 		88F9691C25184AA7008F39AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9691B25184AA7008F39AD /* SceneDelegate.m */; };
 		88F9691F25184AA7008F39AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9691E25184AA7008F39AD /* ViewController.m */; };
@@ -15,62 +31,8 @@
 		88F9692725184AAB008F39AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88F9692525184AAB008F39AD /* LaunchScreen.storyboard */; };
 		88F9692A25184AAB008F39AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9692925184AAB008F39AD /* main.m */; };
 		88F9697225184E7F008F39AD /* TMTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F9697125184E7F008F39AD /* TMTabbar.m */; };
-		88F9698B2518531B008F39AD /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F969822518530E008F39AD /* ReactiveObjC.framework */; };
-		88F9698C2518531B008F39AD /* ReactiveObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 88F969822518530E008F39AD /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C07D4C9736D9F2F851540674 /* Pods_TaskManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CCDFBF35F5DD2D67CF5D75 /* Pods_TaskManager.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		88F9697D2518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D04725EA19E49ED7006002AA;
-			remoteInfo = "ReactiveObjC-macOS";
-		};
-		88F9697F2518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D04725F519E49ED7006002AA;
-			remoteInfo = "ReactiveObjC-macOSTests";
-		};
-		88F969812518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D047260C19E49F82006002AA;
-			remoteInfo = "ReactiveObjC-iOS";
-		};
-		88F969832518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D047261619E49F82006002AA;
-			remoteInfo = "ReactiveObjC-iOSTests";
-		};
-		88F969852518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A9B315541B3940610001CB9C;
-			remoteInfo = "ReactiveObjC-watchOS";
-		};
-		88F969872518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 57A4D2411BA13D7A00F7D4B1;
-			remoteInfo = "ReactiveObjC-tvOS";
-		};
-		88F969892518530E008F39AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7DFBED031CDB8C9500EE435B;
-			remoteInfo = "ReactiveObjC-tvOSTests";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		88F9696D25184DF4008F39AD /* Embed Frameworks */ = {
@@ -79,7 +41,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				88F9698C2518531B008F39AD /* ReactiveObjC.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +51,38 @@
 		0F2BFD0934803CB105BC2B93 /* Pods-TaskManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManager.debug.xcconfig"; path = "Target Support Files/Pods-TaskManager/Pods-TaskManager.debug.xcconfig"; sourceTree = "<group>"; };
 		205FEA9B77D88DAD6934EA9D /* Pods-TaskManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskManager.release.xcconfig"; path = "Target Support Files/Pods-TaskManager/Pods-TaskManager.release.xcconfig"; sourceTree = "<group>"; };
 		52CCDFBF35F5DD2D67CF5D75 /* Pods_TaskManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840695D0251C8D5500539F3F /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		840695D1251C8D5500539F3F /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		840695D3251C8DC100539F3F /* TMListTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMListTaskViewController.h; sourceTree = "<group>"; };
+		840695D4251C8DC100539F3F /* TMListTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMListTaskViewController.m; sourceTree = "<group>"; };
+		840695D9251C8DEF00539F3F /* BaseVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVM.h; sourceTree = "<group>"; };
+		840695DA251C8DEF00539F3F /* BaseVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVM.m; sourceTree = "<group>"; };
+		840695DC251C8E0600539F3F /* TMListTaskVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMListTaskVM.h; sourceTree = "<group>"; };
+		840695DD251C8E0600539F3F /* TMListTaskVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMListTaskVM.m; sourceTree = "<group>"; };
+		840695DF251C8E1D00539F3F /* TMTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTask.h; sourceTree = "<group>"; };
+		840695E0251C8E1D00539F3F /* TMTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTask.m; sourceTree = "<group>"; };
+		840695E2251C930400539F3F /* TMProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMProject.h; sourceTree = "<group>"; };
+		840695E3251C930400539F3F /* TMProject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMProject.m; sourceTree = "<group>"; };
+		840695E5251C93E800539F3F /* TMHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHomeVC.h; sourceTree = "<group>"; };
+		840695E6251C93E800539F3F /* TMHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMHomeVC.m; sourceTree = "<group>"; };
+		840695E8251C93FB00539F3F /* TMHomeVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMHomeVM.h; sourceTree = "<group>"; };
+		840695E9251C93FB00539F3F /* TMHomeVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMHomeVM.m; sourceTree = "<group>"; };
+		840695EB251C985500539F3F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		840695ED251CA35B00539F3F /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		840695EE251CA35B00539F3F /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		840695F0251CAAEB00539F3F /* TMTaskDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTaskDetailVC.h; sourceTree = "<group>"; };
+		840695F1251CAAEB00539F3F /* TMTaskDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTaskDetailVC.m; sourceTree = "<group>"; };
+		840695F3251CAB0200539F3F /* TMTaskDetailVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTaskDetailVM.h; sourceTree = "<group>"; };
+		840695F4251CAB0200539F3F /* TMTaskDetailVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTaskDetailVM.m; sourceTree = "<group>"; };
+		8406961B251D941F00539F3F /* TMTaskCollectionNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTaskCollectionNode.h; sourceTree = "<group>"; };
+		8406961C251D941F00539F3F /* TMTaskCollectionNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTaskCollectionNode.m; sourceTree = "<group>"; };
+		840696202521846900539F3F /* TMDbWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMDbWrapper.h; sourceTree = "<group>"; };
+		840696212521846900539F3F /* TMDbWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMDbWrapper.m; sourceTree = "<group>"; };
+		840696232521854A00539F3F /* TM-PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TM-PrefixHeader.h"; sourceTree = "<group>"; };
+		8493984125243BF1005766F1 /* TMMember.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMMember.h; sourceTree = "<group>"; };
+		8493984225243BF1005766F1 /* TMMember.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMMember.m; sourceTree = "<group>"; };
+		8493984425243CD1005766F1 /* TMFireStoreWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMFireStoreWrapper.h; sourceTree = "<group>"; };
+		8493984525243CD1005766F1 /* TMFireStoreWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMFireStoreWrapper.m; sourceTree = "<group>"; };
 		88F9691425184AA7008F39AD /* TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F9691725184AA7008F39AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88F9691825184AA7008F39AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,7 +97,6 @@
 		88F9692925184AAB008F39AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88F9697025184E7F008F39AD /* TMTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMTabbar.h; sourceTree = "<group>"; };
 		88F9697125184E7F008F39AD /* TMTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMTabbar.m; sourceTree = "<group>"; };
-		88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactiveObjC.xcodeproj; path = ReactiveObjC/ReactiveObjC.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +105,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07D4C9736D9F2F851540674 /* Pods_TaskManager.framework in Frameworks */,
-				88F9698B2518531B008F39AD /* ReactiveObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,10 +119,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		840695CC251C8BA700539F3F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		840695CD251C8BAB00539F3F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				840695D0251C8D5500539F3F /* BaseVC.h */,
+				840695D1251C8D5500539F3F /* BaseVC.m */,
+				840695D3251C8DC100539F3F /* TMListTaskViewController.h */,
+				840695D4251C8DC100539F3F /* TMListTaskViewController.m */,
+				840695E5251C93E800539F3F /* TMHomeVC.h */,
+				840695E6251C93E800539F3F /* TMHomeVC.m */,
+				840695F0251CAAEB00539F3F /* TMTaskDetailVC.h */,
+				840695F1251CAAEB00539F3F /* TMTaskDetailVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		840695CE251C8BB100539F3F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				840695D9251C8DEF00539F3F /* BaseVM.h */,
+				840695DA251C8DEF00539F3F /* BaseVM.m */,
+				840695DC251C8E0600539F3F /* TMListTaskVM.h */,
+				840695DD251C8E0600539F3F /* TMListTaskVM.m */,
+				840695E8251C93FB00539F3F /* TMHomeVM.h */,
+				840695E9251C93FB00539F3F /* TMHomeVM.m */,
+				840695F3251CAB0200539F3F /* TMTaskDetailVM.h */,
+				840695F4251CAB0200539F3F /* TMTaskDetailVM.m */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		840695CF251C8BB700539F3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840695DF251C8E1D00539F3F /* TMTask.h */,
+				840695E0251C8E1D00539F3F /* TMTask.m */,
+				840695E2251C930400539F3F /* TMProject.h */,
+				840695E3251C930400539F3F /* TMProject.m */,
+				840695ED251CA35B00539F3F /* BaseModel.h */,
+				840695EE251CA35B00539F3F /* BaseModel.m */,
+				8493984125243BF1005766F1 /* TMMember.h */,
+				8493984225243BF1005766F1 /* TMMember.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8406961A251D93FF00539F3F /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8406961B251D941F00539F3F /* TMTaskCollectionNode.h */,
+				8406961C251D941F00539F3F /* TMTaskCollectionNode.m */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8406961F2521845600539F3F /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				840696202521846900539F3F /* TMDbWrapper.h */,
+				840696212521846900539F3F /* TMDbWrapper.m */,
+				8493984425243CD1005766F1 /* TMFireStoreWrapper.h */,
+				8493984525243CD1005766F1 /* TMFireStoreWrapper.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		88F9690B25184AA7008F39AD = {
 			isa = PBXGroup;
 			children = (
-				88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */,
 				88F9691625184AA7008F39AD /* TaskManager */,
 				88F9691525184AA7008F39AD /* Products */,
 				94A58C3C312DC432D3331C71 /* Pods */,
@@ -150,12 +212,13 @@
 		88F9691625184AA7008F39AD /* TaskManager */ = {
 			isa = PBXGroup;
 			children = (
+				840696232521854A00539F3F /* TM-PrefixHeader.h */,
+				8406961F2521845600539F3F /* Database */,
+				840695CF251C8BB700539F3F /* Models */,
+				840695CE251C8BB100539F3F /* ViewModels */,
+				840695CD251C8BAB00539F3F /* Controllers */,
+				840695CC251C8BA700539F3F /* Helper */,
 				88F9696E25184E6A008F39AD /* Views */,
-				88F9693625184B6D008F39AD /* Helper */,
-				88F9693525184B68008F39AD /* Services */,
-				88F9693425184B60008F39AD /* Models */,
-				88F9693325184B5A008F39AD /* ViewModels */,
-				88F9693225184B4D008F39AD /* Controllers */,
 				88F9693125184B47008F39AD /* Storyboard */,
 				88F9693025184AC1008F39AD /* Bundle */,
 				88F9691D25184AA7008F39AD /* ViewController.h */,
@@ -167,6 +230,7 @@
 		88F9693025184AC1008F39AD /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
+				840695EB251C985500539F3F /* GoogleService-Info.plist */,
 				88F9691725184AA7008F39AD /* AppDelegate.h */,
 				88F9691825184AA7008F39AD /* AppDelegate.m */,
 				88F9691A25184AA7008F39AD /* SceneDelegate.h */,
@@ -187,44 +251,10 @@
 			path = Storyboard;
 			sourceTree = "<group>";
 		};
-		88F9693225184B4D008F39AD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		88F9693325184B5A008F39AD /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		88F9693425184B60008F39AD /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		88F9693525184B68008F39AD /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		88F9693625184B6D008F39AD /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 		88F9696E25184E6A008F39AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8406961A251D93FF00539F3F /* CollectionViewCell */,
 				88F9696F25184E6E008F39AD /* Tabbar */,
 			);
 			path = Views;
@@ -237,20 +267,6 @@
 				88F9697125184E7F008F39AD /* TMTabbar.m */,
 			);
 			path = Tabbar;
-			sourceTree = "<group>";
-		};
-		88F969742518530E008F39AD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				88F9697E2518530E008F39AD /* ReactiveObjC.framework */,
-				88F969802518530E008F39AD /* ReactiveObjCTests.xctest */,
-				88F969822518530E008F39AD /* ReactiveObjC.framework */,
-				88F969842518530E008F39AD /* ReactiveObjCTests.xctest */,
-				88F969862518530E008F39AD /* ReactiveObjC.framework */,
-				88F969882518530E008F39AD /* ReactiveObjC.framework */,
-				88F9698A2518530E008F39AD /* ReactiveObjCTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		94A58C3C312DC432D3331C71 /* Pods */ = {
@@ -310,70 +326,12 @@
 			mainGroup = 88F9690B25184AA7008F39AD;
 			productRefGroup = 88F9691525184AA7008F39AD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 88F969742518530E008F39AD /* Products */;
-					ProjectRef = 88F969732518530E008F39AD /* ReactiveObjC.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				88F9691325184AA7008F39AD /* TaskManager */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		88F9697E2518530E008F39AD /* ReactiveObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveObjC.framework;
-			remoteRef = 88F9697D2518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F969802518530E008F39AD /* ReactiveObjCTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveObjCTests.xctest;
-			remoteRef = 88F9697F2518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F969822518530E008F39AD /* ReactiveObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveObjC.framework;
-			remoteRef = 88F969812518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F969842518530E008F39AD /* ReactiveObjCTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveObjCTests.xctest;
-			remoteRef = 88F969832518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F969862518530E008F39AD /* ReactiveObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveObjC.framework;
-			remoteRef = 88F969852518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F969882518530E008F39AD /* ReactiveObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ReactiveObjC.framework;
-			remoteRef = 88F969872518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		88F9698A2518530E008F39AD /* ReactiveObjCTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ReactiveObjCTests.xctest;
-			remoteRef = 88F969892518530E008F39AD /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		88F9691225184AA7008F39AD /* Resources */ = {
@@ -383,6 +341,7 @@
 				88F9692725184AAB008F39AD /* LaunchScreen.storyboard in Resources */,
 				88F9692425184AAB008F39AD /* Assets.xcassets in Resources */,
 				88F9692225184AA7008F39AD /* Main.storyboard in Resources */,
+				840695EC251C985500539F3F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +395,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F9691F25184AA7008F39AD /* ViewController.m in Sources */,
+				840695DB251C8DEF00539F3F /* BaseVM.m in Sources */,
+				840695E4251C930400539F3F /* TMProject.m in Sources */,
 				88F9697225184E7F008F39AD /* TMTabbar.m in Sources */,
+				840695E7251C93E800539F3F /* TMHomeVC.m in Sources */,
+				840695F5251CAB0200539F3F /* TMTaskDetailVM.m in Sources */,
+				840695DE251C8E0600539F3F /* TMListTaskVM.m in Sources */,
 				88F9691925184AA7008F39AD /* AppDelegate.m in Sources */,
+				840696222521846900539F3F /* TMDbWrapper.m in Sources */,
+				840695F2251CAAEB00539F3F /* TMTaskDetailVC.m in Sources */,
+				840695D5251C8DC100539F3F /* TMListTaskViewController.m in Sources */,
+				840695D2251C8D5500539F3F /* BaseVC.m in Sources */,
+				840695E1251C8E1D00539F3F /* TMTask.m in Sources */,
+				840695EF251CA35B00539F3F /* BaseModel.m in Sources */,
 				88F9692A25184AAB008F39AD /* main.m in Sources */,
 				88F9691C25184AA7008F39AD /* SceneDelegate.m in Sources */,
+				8493984625243CD1005766F1 /* TMFireStoreWrapper.m in Sources */,
+				840695EA251C93FB00539F3F /* TMHomeVM.m in Sources */,
+				8493984325243BF1005766F1 /* TMMember.m in Sources */,
+				8406961D251D941F00539F3F /* TMTaskCollectionNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +556,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAP44W2V36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TaskManager/TM-PrefixHeader.h";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
@@ -610,11 +586,12 @@
 					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
 				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/TaskManager/Bundle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abc.com.taskManager;
+				PRODUCT_BUNDLE_IDENTIFIER = template.com.taskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -628,7 +605,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GAP44W2V36;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TaskManager/TM-PrefixHeader.h";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
@@ -656,11 +635,12 @@
 					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include\"",
 				);
 				INFOPLIST_FILE = "$(PROJECT_DIR)/TaskManager/Bundle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = abc.com.taskManager;
+				PRODUCT_BUNDLE_IDENTIFIER = template.com.taskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

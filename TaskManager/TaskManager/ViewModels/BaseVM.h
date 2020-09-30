@@ -1,16 +1,17 @@
 //
-//  TMTabbar.h
+//  BaseVM.h
 //  TaskManager
 //
-//  Created by Bach Hoang on 9/21/20.
+//  Created by admin on 9/24/20.
 //  Copyright © 2020 Bach Van Hoang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
-IB_DESIGNABLE
-@interface TMTabbar : UIView
+
+@interface BaseVM : NSObject
 
 @end
+
 NS_ASSUME_NONNULL_END

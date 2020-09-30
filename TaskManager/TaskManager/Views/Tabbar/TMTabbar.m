@@ -8,14 +8,10 @@
 
 #import "TMTabbar.h"
 
-@implementation TMTabbar
-
 /*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+ --|1|--|2|--|3|--
+ */
+
+@implementation TMTabbar
 
 @end

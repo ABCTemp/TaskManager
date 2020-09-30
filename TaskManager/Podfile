@@ -10,4 +10,5 @@ pod 'Texture'
 pod 'Firebase/Firestore'
 pod 'XLForm', '~> 4.1'
 pod 'CouchbaseLite', '~> 2.7.0'
+pod 'ReactiveCocoa'
 end
